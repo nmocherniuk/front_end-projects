@@ -1,0 +1,159 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html
+{
+    background-color: #1c388b;
+}
+#header
+{
+    position: absolute;
+    background-color: #86acff;
+    width: 100%;
+    height: 62px;
+    opacity: 0.5;
+}
+h1
+{
+    color: white;
+    margin: 8px 0px 5px 340px;
+}
+div#header > a
+{
+    text-decoration: none;
+}
+img
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.wrapper
+{
+    position: relative;
+}
+#photo2
+{
+    position: absolute;
+    top: 275px;
+    left: 330px;
+}
+#photo3
+{
+    position: absolute;
+    left: 600px;
+}
+#fix
+{
+    width: 1250px;
+}
+.text
+{
+    position: absolute;
+    left: 630px;
+    top: 650px;
+}
+.discription
+{
+    position: absolute;
+    width: 820px;
+    height: 205px;
+    left: 578px;
+    top: 413px;
+    font-size: 13px;
+    border: 1px solid rgb(184, 216, 218);
+    border-radius: 5px;
+    background-color: #fbfdff; 
+}
+
+
+
+h2
+{
+    margin: 10px 60px 20px 60px;
+    font-size: 1.8em;
+    color: red;
+}
+.list
+{
+    position: absolute;
+    left: 345px;
+}
+.list2
+{
+    position: absolute;
+    left: 345px;
+    top: 502px;
+    width: 220px;
+}
+div  li
+{
+    list-style-type: none;
+    font-size: 16px;
+    color: #3b5998;
+    padding: 5px;
+
+}
+#undertext
+{
+    width: 800px;
+    text-align: right;
+    font-weight: bold;
+    font-style: italic;
+    position: absolute;
+    right: 18px;
+    font-size: 0.9em;
+}
+p
+{
+    width: 766px;
+    
+}
+
+#intro
+{
+    height: 45px;
+    background-color: #3b5998;
+    color: white;
+    font-size: 13px;
+}
+
+
+#intro-minor
+{
+    margin: 0px 84px 0px 84px;
+    padding: 5px 0px 5px 0px;
+    height: 100%;
+}
+div > span
+{
+    margin: 6px;
+}
+.news
+{
+    position: absolute;
+    left:602px;
+    top: 940px;
+}
+h3
+{
+    font-weight: 100;
+    margin: 5px 0px 14px 0px;
+}
+.newslist
+{
+    
+}
+
+
+.itemlist
+{
+    margin: 2px 0px 28px 0px;
+}
+div.itemlist p
+{
+    margin: 6px 0px 6px 0px ;
+}
