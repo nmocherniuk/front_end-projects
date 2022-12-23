@@ -9,23 +9,36 @@ body
 {
     background: #1c388b;
 }
-#header
+#intro
 {
-    position: absolute;
-    background-color: #86acff;
-    width: 100%;
-    height: 62px;
-    opacity: 0.5;
-    box-shadow: 0px 0px 10px 0px;
-    
+    height: 45px;
+    background-color: #3b5998;
+    color: white;
+    font-size: 13px;
 }
-h1
+#intro-minor
+{
+    margin: auto;
+    padding: 5px 0px 5px 0px;
+    height: 100%;
+    width: 1250px;
+}
+.header
+{
+    width: 100%;
+    height: 57px;
+    background: rgba(114, 143, 206, 0.7);
+    position: absolute;
+}
+#underheader
+{
+    width: 1210px;
+    margin: auto;
+}
+div.header a
 {
     color: white;
-    margin: 8px 0px 5px 340px;
-}
-div#header > a
-{
+    font-size: 29.5px;
     text-decoration: none;
 }
 #photo1
@@ -35,76 +48,109 @@ div#header > a
     height: 290px;
     background-position: center;
 }
-#photo2
+.centerview
 {   
+    position: relative;
+    top: 275px;
+    width: 1240px;
+    height: 1817px;
     background-color: white;
-    background-image: url('https://static.e-schools.info/images/backgrounds/bg-3.png');
-
-    background-color: white;
+    margin: auto;    
+}
+#photo3
+{
+    background-image:  url('https://static.e-schools.info/images/backgrounds/bg-3.png');
     background-repeat: repeat-y;
-    height: 1900px;
-    width: 1000px;
+    height: 1720px;
+    width: 120px;
+    transform: scaleX(-1);
+    position: absolute;
     
 }
-img
+#photo4
+{
+    background-image:  url('https://static.e-schools.info/images/backgrounds/bg-3.png');
+    background-repeat: repeat-y;
+    background-position: right;
+    height: 1720px;
+    width: 168px;
+    position: absolute;
+    right: 0px;
+}
+#minorback
+{
+    background-color: white;
+    width: 65%;
+    margin: auto;
+    padding-top: 16px;
+    position: relative;
+    left: 32.3px;
+}
+div.underphoto > img
 {
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
-.wrapper
-{
-    position: relative;
-}
-
-
-#photo3
-{
-    position: absolute;
-    left: 600px;
-}
-#fix
-{
-    width: 1250px;
-}
-.text
-{
-    position: absolute;
-    left: 630px;
-    top: 650px;
-}
 .discription
 {
-    position: absolute;
-    width: 820px;
-    height: 205px;
-    left: 578px;
-    top: 413px;
+    height: 197px;
+    width: 810px;
     font-size: 13px;
     border: 1px solid rgb(184, 216, 218);
     border-radius: 5px;
     background-color: #fbfdff; 
+    position: relative;
+    left: 2px;
+    margin: 4px 0px 33px 0px;
 }
-
-
-
+.newphoto
+{
+    margin-left: 18px;
+}
+article.text
+{
+    border-bottom: 1px solid #d9d9d9;
+    padding-bottom: 40px;
+}
 h2
 {
-    margin: 10px 60px 20px 60px;
-    font-size: 1.8em;
-    color: red;
+    margin: 0px 60px 20px 100px;
+    font-size: 1.63em;
+    color: rgb(164, 11, 11);
     font-style: italic;
+}
+#undertext
+{
+    
+    text-align: right;
+    font-weight: bold;
+    font-style: italic;
+    right: 18px;
+    font-size: 0.74em;
+    line-height: 1.6;
+    padding: 0px 25px 0px 15px;
+}
+.leftview
+{
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    width: 223px;
+    background: rgba(255, 255, 255, 0.8);
 }
 .list
 {
-    position: absolute;
+   
     left: 345px;
     background: #eef2f5;
     width: 220px;
     border: 1px solid rgb(227, 227, 227);
-    
 }
-
+.list2
+{
+   margin-top: 15px;
+}
 div.list li
 {
     border-bottom: 1px solid #d9d9d9;
@@ -113,27 +159,10 @@ div.list li
     font-size: 12px;
     font-weight: bold;
     text-shadow: 0 1px 0 #fff;
-    
 }
-.list2
+div.list li:last-child
 {
-    position: absolute;
-    left: 345px;
-    top: 530px;
-    width: 220px;
-
-}
-div.list2 li
-{
-   
-    border-bottom: 1px solid #d9d9d9;
-    font-size: 12px;
-    margin: 3.2px;
-}
-div.list2 li:first-child
-{
-    border-top: 1px solid #d9d9d9;
-    
+    border: none;
 }
 div  li
 {
@@ -143,63 +172,308 @@ div  li
     padding: 5px 5px 5px 10px;
 
 }
-#undertext
+div.list2 li:first-child
 {
-    width: 800px;
-    text-align: right;
-    font-weight: bold;
-    font-style: italic;
-    position: absolute;
-    right: 18px;
-    font-size: 0.9em;
-}
-p
-{
-    width: 766px;
+    border-top: 1px solid #d9d9d9;
     
 }
-
-#intro
+div.list2 li
 {
-    height: 45px;
-    background-color: #3b5998;
-    color: white;
-    font-size: 13px;
-}
-
-
-#intro-minor
-{
-    margin: 0px 84px 0px 84px;
-    padding: 5px 0px 5px 0px;
-    height: 100%;
-}
-div > span
-{
-    margin: 6px;
+   
+    border-bottom: 1px solid #d9d9d9;
+    font-size: 12px;
+    margin: 3.2px;
 }
 .news
 {
-    position: absolute;
-    left:602px;
-    top: 940px;
+    padding: 15px 15px 0px 15px;
+}
+.itemlist
+{
+    border-bottom: 1px dashed #d9d9d9;
+    padding: 15px 0px 15px 0px;
+}
+div.itemlist:last-child
+{
+    border-bottom: none;
+    
 }
 h3
 {
     font-weight: 100;
-    margin: 5px 0px 14px 0px;
+    margin: 5px 0px 0px 0px;
 }
-.newslist
+div.itemlist > a
 {
+    font-weight: bold;
+    font-size: 14.7px;
+}
+div.itemlist > a:visited
+{
+    color: #326693;
+}
+div.itemlist > p
+{
+    font-size: 13px;
+    padding: 6px 0px 6px 0px;
+}
+.newsproject
+{
+    border: 1.3px solid rgb(254,218,153);
+    background-color: rgb(255,241,198);
+    width: 215px;
+    height: 300px;
+    position: absolute;
+    bottom: 450px;
+    margin-left: 20px;
     
 }
-
-
-.itemlist
+div.newsproject h4
 {
-    margin: 2px 0px 28px 0px;
+    font-size: 13.8px;
 }
-div.itemlist p
+div.newsproject > div
 {
-    margin: 6px 0px 6px 0px ;
+    
+    border-bottom: 1px solid #f0e3ba; 
+    border-top: 1px solid #ffffff ;
+}
+div.newsproject > div:first-child
+{
+    background-color: #ffe5a7;
+    height: 27px;   
+    border-top: none;
+    border-bottom: 1px solid rgb(254,218,153);
+    padding: 4px 0px 5px 9px;
+}
+div.newsproject > div:nth-child(2)
+{
+    border-top: none;
+}
+div.newsproject > div:last-child
+{
+    border-bottom: none;
+}
+.projectlist
+{
+    padding: 9px 0px 9px 9px;
+}
+div.newsproject span
+{
+    font-size: 11.6px;
+    display: block;
+}
+div.newsproject a
+{
+    font-size: 11px;
+}
+div.newsproject a:visited
+{
+    color: #326693;
+}
+.time
+{
+    font-size: 11.7px;
+    color: #777777;
+    font-weight:400;
+    padding-right: 6px;
+}
+.name
+{
+    font-size: 11.7px;
+    color: #a20360;
+    border-left: 1.2px solid #aaaaaa;
+    border-right: 1.2px solid #aaaaaa;
+    padding: 0px 6.5px 0px 6.5px;
+}
+.comment
+{
+    color: #326693;
+    font-size: 11.7px;
+    padding-left: 6px;
+}
+.photo 
+{
+    border-top: 1px solid #d9d9d9;
+    padding-top: 15px;
+}
+div.photo > h3, div.wall > h3
+{
+    margin-left: 15px;
+}
+.underphoto
+{
+    border: 1px solid #e8e8e8;
+    background-color: #fafafa;
+    margin: 8px 0px 0px 0px;
+}
+div.underphoto > img 
+{
+    padding: 11px;
+}
+.button
+{
+    border: 1px solid #e8e8e8;
+    border-top: none ;
+    background-color: #f7f7f7;
+    height: 37px;
+}
+div.button > span
+{
+    float: right;
+    padding: 11px;
+    font-size: 12.6px;
+    font-weight: bold;
+    color: #326693;
+}
+#button
+{
+    border: 1px solid #e5e5e5;
+    background-color: #fafafa;
+    border-radius: 14px;
+    width: 70px;
+    height: 30px;
+    position: relative;
+    left: 370px;
+    top: 3px;
+}
+.wall
+{
+    margin-top: 22px;
+    height: 100px;
+}
+.underwall
+{
+    border: 1px solid #e8e8e8;
+    background-color: #f7f7f7;
+    height: 35px;
+    padding: 10px 0px 10px 14px;
+    font-size: 12.5px;
+    margin-top: 8px;
+}
+div.underwall > span
+{
+    font-weight: bold;
+}
+div.wall > span
+{
+    font-size: 12px;
+    display: block;
+    margin-top: 15px ;
+}
+.vote
+{
+    height: 148px;
+    width: 215px;
+    border: 1px solid #e5e5e5;
+    background-color: #fafafa;
+    position: relative;
+    bottom: 227px;
+    margin-left: 20px ;
+}
+div.vote > div:first-child
+{
+    background-color: #eff1f2;
+    border-bottom: 1px solid #e5e5e5;
+    height: 27px;
+}
+div.vote > div:nth-child(2)
+{
+    padding: 4px 0px 5px 9px;
+}
+.choice
+{
+    display: flex;
+    flex-direction: column;
+}
+div.vote label
+{
+    margin: 4px 0px 0px 0px;
+}
+div.vote h4
+{
+    font-size: 13.5px;
+    padding: 4px 0px 5px 9px;
+}
+.question
+{
+    font-size: 11px;
+}
+div.vote > div:nth-child(2) > span:first-child
+{
+    font-weight: bold;
+}
+.undervote
+{
+    border-top: 1px dotted  #e5e5e5;
+    margin: 4px 10px 0px 10px;
+    display: flex;
+    padding: 10px 0px 5px 1px;
+}
+div.undervote input
+{
+    width: 80px;
+    height: 22px;
+    font-size: 11px;
+    font-weight: bold;
+}
+div.undervote  span:first-child
+{
+    font-size: 13px;
+}
+div.undervote span:nth-child(2)
+{
+    font-size: 11px;
+    color: #777777;
+    margin: 0px 0px 3px 13.5px;
+}
+#numvote
+{
+    font-weight: bolder;
+}
+.footer
+{
+    border-top: 1px solid #eeeeee;
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    bottom: -2.5px;
+    display: flex;
+    justify-content: space-between;
+}
+.leftfoot, .rightfoot
+{   
+    display: flex;
+    flex-direction: column;
+}
+div.footer img
+{
+    width: 11.8px;
+}
+div.footer a, div.footer span
+{
+    font-size: 11px;
+    color: #444444;
+}
+.leftfoot 
+{
+    margin: 15px 0px 0px 20px;
+}
+.centerfoot
+{
+    margin: 15px 0px 0px 0px;
+}
+.rightfoot
+{
+    margin: 15px 20px 0px 0px;
+}
+div.leftfoot > span
+{
+    margin-bottom: 8px;
+}
+div.leftfoot > span:nth-child(2) > a
+{
+    margin: 0px 0px 0px 8px;
+    position: relative;
+    bottom: 1px;
 }
