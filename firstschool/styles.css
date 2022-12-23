@@ -4,6 +4,7 @@
     padding: 0px;
     box-sizing: border-box;
     font-family: Arial, sans-serif;
+
 }
 body
 {
@@ -29,6 +30,7 @@ body
     height: 57px;
     background: rgba(114, 143, 206, 0.7);
     position: absolute;
+    box-shadow:  0 3px 3px rgb(0 0 0 / 30%);
 }
 #underheader
 {
@@ -38,8 +40,24 @@ body
 div.header a
 {
     color: white;
-    font-size: 29.5px;
+    font-size: 32px;
     text-decoration: none;
+    font-family:  'Times New Roman','Arial Narrow',Arial;
+    text-shadow: 0 2px 0 rgb(0 0 0 / 50%);
+    font-weight: bold;
+    position: relative;
+    top: 8px;
+}
+.city
+{
+    font-size: 13px;
+    color: white;
+    font-weight: bold;
+    font-family: Tahoma, sans-serif,Arial;
+    position: relative;
+    top: 8px;
+    left: 10px;
+    text-shadow: 0 2px 0 rgb(0 0 0 / 30%);
 }
 #photo1
 {
@@ -67,7 +85,7 @@ div.header a
     position: absolute;
     
 }
-#photo4
+#rightview
 {
     background-image:  url('https://static.e-schools.info/images/backgrounds/bg-3.png');
     background-repeat: repeat-y;
@@ -103,10 +121,50 @@ div.underphoto > img
     position: relative;
     left: 2px;
     margin: 4px 0px 33px 0px;
+   
+    
 }
+dl:first-child
+{
+    margin-top: 10px;
+}
+dl:last-child
+{
+    border: none;
+}
+.boldt
+{
+    font-weight: bold;
+}
+dl
+{
+    margin: 0px 0px 0px 18px;
+    border-bottom: 1px dotted #dddddd;
+    padding: 8px 0px 5px 0px;
+    width: 96%;
+}
+div.discription dt 
+{
+    font-size: 11.4px;
+    font-weight: bold;
+    display: block;
+    width: 170px;
+    position: absolute;
+}
+div.discription dt, dd
+{
+    font-family: Tahoma, Arial, sans-serif;
+}
+div.discription dd
+{
+    font-size: 11px;
+    margin-left: 214px;
+}
+
 .newphoto
 {
-    margin-left: 18px;
+    margin-left: 3px;
+    width: 100.3%;
 }
 article.text
 {
@@ -145,7 +203,7 @@ h2
     left: 345px;
     background: #eef2f5;
     width: 220px;
-    border: 1px solid rgb(227, 227, 227);
+    border: 1px solid #cbd6de;
 }
 .list2
 {
@@ -187,6 +245,7 @@ div.list2 li
 .news
 {
     padding: 15px 15px 0px 15px;
+    
 }
 .itemlist
 {
@@ -206,7 +265,8 @@ h3
 div.itemlist > a
 {
     font-weight: bold;
-    font-size: 14.7px;
+    font-size: 14px;
+    font-family: Tahoma, Arial, sans-serif;
 }
 div.itemlist > a:visited
 {
@@ -216,6 +276,7 @@ div.itemlist > p
 {
     font-size: 13px;
     padding: 6px 0px 6px 0px;
+    font-family: Tahoma, Arial, sans-serif;
 }
 .newsproject
 {
@@ -224,7 +285,7 @@ div.itemlist > p
     width: 215px;
     height: 300px;
     position: absolute;
-    bottom: 450px;
+    bottom: 444px;
     margin-left: 20px;
     
 }
@@ -368,7 +429,7 @@ div.wall > span
     border: 1px solid #e5e5e5;
     background-color: #fafafa;
     position: relative;
-    bottom: 227px;
+    bottom: 215px;
     margin-left: 20px ;
 }
 div.vote > div:first-child
@@ -461,7 +522,7 @@ div.footer a, div.footer span
 }
 .centerfoot
 {
-    margin: 15px 0px 0px 0px;
+    margin: 12px 0px 0px 0px;
 }
 .rightfoot
 {
@@ -476,4 +537,74 @@ div.leftfoot > span:nth-child(2) > a
     margin: 0px 0px 0px 8px;
     position: relative;
     bottom: 1px;
+}
+div.centerfoot  a
+{
+    padding: 0px 13px 0px 13px;
+    margin-bottom: 8px;
+    border-left: 1px solid #cccccc;
+}
+div.centerfoot  a:first-child
+{
+    padding-left: 0px;
+}
+div.centerfoot  a:last-child
+{
+    padding-right: 0px;
+}
+div.centerfoot > span 
+{
+    margin-bottom: 10px;
+}
+div.centerfoot  a:nth-child(1)
+{
+    border: none;
+}
+div.rightfoot > span, div.rightfoot > a
+{
+    text-align: right;
+    margin: 0px 0px 5.3px 0px;
+}
+.rightview
+{
+    width: 163px;
+    height: 150px;
+    position: absolute;
+    top: 143px;
+    margin-left: 5px;
+    
+}
+div.directorofschool 
+{
+    background: rgba(255, 255, 255, 0.801);
+    height: 84px;
+}
+div.directorofschool > span
+{
+    font-size: 13px;
+    display: block;
+    margin: 2px 0px 4px 2px;
+}
+div.directorofschool > span:first-child
+{
+    font-weight: bolder;
+}
+div.directorofschool > span:nth-child(2) > a
+{
+    color: #a20360;
+    font-size: 12px;
+}
+div.directorofschool > span:last-child
+{
+    font-size: 11px;
+}
+.blockofnews
+{
+    font-weight: bolder;
+    font-size: 14px;
+    background-color: #eff1f2;
+    height: 30px;
+    width: 150px;
+    margin-top: 23px;
+    padding: 6px 0px 3px 11.4px;
 }
