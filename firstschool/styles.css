@@ -416,19 +416,17 @@ div.itemlist > p
     border: 1.3px solid rgb(254,218,153);
     background-color: rgb(255,241,198);
     width: 220px;
-    height: 496px;
+    height: 502px;
     margin: 16px 0px 16px 0px;
+    display: flex;
+    flex-direction: column;
 }
 .projectitem
 {
-    display: flex;
-    flex-direction: column;
     width: 91%;
     position: relative;
-    left: 10px;
-    height: 100%;
+    left: 10px;   
 }
-
 div.newsproject h4
 {
     font-size: 13.8px;
