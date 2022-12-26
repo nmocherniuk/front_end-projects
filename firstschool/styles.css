@@ -414,11 +414,9 @@ div.itemlist > p
 {
     border: 1.3px solid rgb(254,218,153);
     background-color: rgb(255,241,198);
-    width: 215px;
+    width: 220px;
     height: 300px;
-    position: absolute;
-    bottom: 652px;
-    margin-left: 20px;
+    margin: 16px 0px 16px 0px;
 }
 div.newsproject h4
 {
@@ -466,12 +464,10 @@ div.newsproject a:visited
 .vote
 {
     height: 148px;
-    width: 215px;
+    width: 220px;
     border: 1px solid #e5e5e5;
     background-color: #fafafa;
-    position: relative;
-    bottom: 265px;
-    margin-left: 20px ;
+    
 }
 div.vote > div:first-child
 {
@@ -755,10 +751,6 @@ div.directorofschool > span:last-child
         #photo1
         {
             width: 1300px;
-        }
-        .centeraddaptive
-        {
-            height: 1990px;
         }
     }
 
