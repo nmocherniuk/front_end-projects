@@ -411,6 +411,15 @@ div.itemlist > p
     padding: 6px 0px 6px 0px;
     font-family: Tahoma, Arial, sans-serif;
 }
+.icon2
+{
+    background: url('https://static.e-schools.info/images/icos.png');
+    background-repeat: no-repeat;
+    background-position: -75px -45px;
+    width: 24px;
+    height: 23px;
+    transform: rotate(180deg);
+}
 .newsproject
 {
     border: 1.3px solid rgb(254,218,153);
@@ -426,11 +435,16 @@ div.itemlist > p
     position: relative;
     left: 10px;
 }
-
 div.newsproject h4
 {
     font-size: 13.8px;
     font-family: Tahoma, Arial, Helvetica, sans-serif;
+}
+div.newsproject > div:first-child > span
+{
+    position: absolute;
+    right: 3px;
+    top: 2px;
 }
 div.projectitem > div
 {
@@ -440,10 +454,17 @@ div.projectitem > div
 div.newsproject > div:first-child
 {
     background-color: #ffe5a7;
-    height: 27px;   
+    height: 28px;   
     border-top: none;
     border-bottom: 1px solid rgb(254,218,153);
     padding: 4px 0px 5px 9px;
+    position: relative;
+    top: -0.2px;
+}
+div.newsproject > div:first-child:hover
+{
+    background-color: #fff1c6;
+    cursor: pointer;
 }
 div.projectitem > div:first-child
 {
@@ -476,13 +497,24 @@ div.newsproject a:visited
     width: 220px;
     border: 1px solid #e5e5e5;
     background-color: #fafafa;
-    
+}
+div.vote > div:first-child > span
+{
+    position: absolute;
+    top: 2px;
+    right: 3px;
 }
 div.vote > div:first-child
 {
     background-color: #eff1f2;
     border-bottom: 1px solid #e5e5e5;
     height: 29px;
+    position: relative;
+}
+div.vote > div:first-child:hover
+{
+    background-color: #fafafa;
+    cursor: pointer;
 }
 div.vote > div:nth-child(2)
 {
