@@ -418,7 +418,6 @@ div.itemlist > p
     width: 220px;
     height: 496px;
     margin: 16px 0px 16px 0px;
-    
 }
 .projectitem
 {
@@ -427,6 +426,7 @@ div.itemlist > p
     width: 91%;
     position: relative;
     left: 10px;
+    height: 100%;
 }
 
 div.newsproject h4
