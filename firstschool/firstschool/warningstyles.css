@@ -1,0 +1,27 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Tahoma, Arial, sans-serif;
+}
+#warning
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.heading
+{
+    width: 100%;
+    text-align: center;
+}
+.text
+{
+    margin: 30px;
+}
+p
+{
+    text-align: center;
+}
