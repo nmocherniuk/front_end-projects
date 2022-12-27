@@ -768,13 +768,29 @@ div.directorofschool > span:last-child
 }
 .blockofnews
 {
+    display: flex;
+    flex-direction: column;
+}
+div.blockofnews > div:first-child
+{
     font-weight: bolder;
-    font-size: 14px;
     background-color: #eff1f2;
+    font-size: 14px;
     height: 30px;
     width: 150px;
     margin-top: 23px;
     padding: 6px 0px 3px 11.4px;
+} 
+div.blockofnews > div:nth-child(2)
+{
+    font-weight: 500;
+    display: block;
+    background:rgba(255, 255, 255, 0.8);
+    width: 150px;
+    padding: 7px;
+    font-size: 13.7px;
+    line-height: 1.4;
+    text-align: center;
 }
 
 @media (max-width: 1255px) 
