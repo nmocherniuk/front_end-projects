@@ -1,0 +1,844 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+body
+{
+    background: #1c388b;
+}
+#intro
+{
+    height: 45px;
+    background-color: #3b5998;
+    font-size: 13px;
+}
+#intro-minor
+{
+    margin: auto;
+    padding: 8px 0px 5px 0px;
+    height: 100%;
+    width: 1250px;
+    display: flex;
+    justify-content: space-between;
+}
+div.leftintro > a
+{
+    margin: 0px 4px 0px 8px;
+    font-family: Tahoma, sans-serif,Arial;
+    font-size: 12px;
+    text-decoration: none;
+    color: white;
+}
+div.lang > select
+{
+    width: 127px;
+    height: 29px;
+    position: relative;
+    bottom: 16px;
+    left: 230px;
+    padding: 5px 0px 5px 6px;
+    font-size: 13px;
+    font-family: Tahoma, sans-serif,Arial;
+}
+div.lang option
+{
+    padding: 5px 0px 5px 5px;
+}
+div.leftintro > a:link, div.rightintro > a:link
+{
+    color: white;
+}
+div.leftintro > a:visited, div.rightintro > a:visited
+{
+    color: white;
+}
+div.leftintro > a:hover, div.rightintro > a:hover
+{
+    border-bottom: 1px solid #c5cee0;
+}
+div.leftintro > a:nth-child(3)
+{
+    font-weight: bold;
+    color: red;
+}
+div.rightintro > a
+{
+    font-family: Tahoma, sans-serif,Arial;
+    font-size: 12px;
+    margin: 0px 8px 0px 8px;
+    text-decoration: none;
+    color: white;
+}
+div.rightintro > a:last-child
+{
+    font-weight: bolder;
+}
+.header
+{
+    width: 100%;
+    height: 57px;
+    background: rgba(114, 143, 206, 0.7);
+    position: absolute;
+    box-shadow:  0 3px 3px rgb(0 0 0 / 30%);
+    z-index: 1;
+}
+#underheader
+{
+    width: 1210px;
+    margin: auto;
+}
+div.header a
+{
+    color: white;
+    font-size: 32px;
+    text-decoration: none;
+    font-family:  'Times New Roman','Arial Narrow',Arial;
+    text-shadow: 0 2px 0 rgb(0 0 0 / 50%);
+    font-weight: bold;
+    position: relative;
+    top: 8px;
+}
+.city
+{
+    font-size: 13px;
+    color: white;
+    font-weight: bold;
+    font-family: Tahoma, sans-serif, Arial;
+    position: relative;
+    top: 8px;
+    left: 10px;
+    text-shadow: 0 2px 0 rgb(0 0 0 / 30%);
+}
+#photo1
+{
+    background-image: url('https://content.e-schools.info/cache/f5/10/f510b050ad75271f71e0053e38f67218.jpg');
+    background-repeat: no-repeat;
+    height: 290px;
+    background-position: center;
+}
+.mainphoto
+{
+    width: 1240px;
+    height: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 241px;
+}
+.search
+{
+    position: absolute;
+    right: 0px;
+}
+div.search  input:first-child
+{
+    height: 24px;
+    width: 179px;
+    border: 1px solid #a0b8ca;
+    padding: 4px 0px 4px 10px;
+    font-size: 12px;
+    font-family: Tahoma, sans-serif, Arial;
+    color: #757575;
+    outline:none;
+}
+div.search input:nth-child(2)
+{
+    background: url("https://static.e-schools.info/images/icos.png");
+    background-position: -19px -219px;
+    height: 17px;
+    width: 17px;    
+    position: absolute;
+    right: 3px;
+    top: 3px;
+    border: none;
+}
+.centerview
+{   
+    position: relative;
+    top: 250px;
+    width: 1240px;
+    height: 1990px;
+    background-color: white;
+    margin: auto;    
+}
+#photo3
+{
+    background-image:  url('https://static.e-schools.info/images/backgrounds/bg-3.png');
+    background-repeat: repeat-y;
+    height: 1890px;
+    width: 120px;
+    transform: scaleX(-1);
+    position: absolute;
+}
+#rightview
+{
+    background-image:  url('https://static.e-schools.info/images/backgrounds/bg-3.png');
+    background-repeat: repeat-y;
+    background-position: right;
+    height: 1890px;
+    width: 168px;
+    position: absolute;
+    right: 0px;
+}
+#minorback
+{
+    background-color: white;
+    width: 65%;
+    margin: auto;
+    padding-top: 16px;
+    position: relative;
+    left: 32.3px;
+    height: 1893px;
+}
+.discription
+{
+    height: 197px;
+    width: 810px;
+    font-size: 13px;
+    border: 1px solid rgb(184, 216, 218);
+    border-radius: 5px;
+    background-color: #fbfdff; 
+    position: relative;
+    left: 2px;
+    margin: 4px 0px 33px 0px;
+}
+dl:first-child
+{
+    margin-top: 10px;
+}
+dl:last-child
+{
+    border: none;
+}
+.boldt
+{
+    font-weight: bold;
+}
+dl
+{
+    margin: 0px 0px 0px 18px;
+    border-bottom: 1px dotted #dddddd;
+    padding: 8px 0px 5px 0px;
+    width: 96%;
+}
+div.discription dt 
+{
+    font-size: 11.4px;
+    font-weight: bold;
+    display: block;
+    width: 170px;
+    position: absolute;
+}
+div.discription dt, dd
+{
+    font-family: Tahoma, Arial, sans-serif;
+}
+div.discription dd
+{
+    font-size: 11px;
+    margin-left: 214px;
+}
+.newphoto
+{
+    margin-left: 3px;
+    width: 100.3%;
+}
+div.text
+{
+    border-bottom: 1px solid #d9d9d9;
+    padding-bottom: 40px;
+}
+h2
+{
+    margin: 0px 60px 20px 100px;
+    font-size: 1.63em;
+    color: rgb(164, 11, 11);
+    font-style: italic;
+}
+#undertext
+{
+    text-align: right;
+    font-weight: bold;
+    font-style: italic;
+    right: 18px;
+    font-size: 0.74em;
+    line-height: 1.6;
+    padding: 0px 25px 0px 15px;
+}
+.leftview
+{
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    width: 223px;
+    background: rgba(255, 255, 255, 0.8);
+}
+.list
+{
+    left: 345px;
+    background: #eef2f5;
+    width: 220px;
+    border: 1px solid #cbd6de;
+}
+div li
+{
+    list-style-type: none;
+    position: relative;
+}
+div.list a, div.list2 a
+{
+    color: #326693;
+    text-decoration: none;
+    font-size: 12px;
+}
+div.list a
+{
+    display: block;
+    border-bottom: 1px solid #d9d9d9;
+    border-top: 1px solid #fafafa ;
+    height: 32px;
+    font-weight: bold;
+    text-shadow: 0 1px 0 #fff;
+    padding: 7px 5px 5px 11px;
+}
+.icon
+{
+    background: url('https://static.e-schools.info/images/icos.png');
+    background-position: -20px -70px;
+    background-repeat: no-repeat;
+    width: 7px;
+    height: 8px;
+    position: absolute;
+}
+span.icon:nth-of-type(1)
+{
+    right: 6px;
+    top: 12px;
+}
+div.list li:first-child > a
+{
+    border-top: none;
+}
+div.list li:last-child > a
+{
+    border-bottom: none;
+}
+div.list a:hover
+{
+    background-color: #e1eaf0;
+    border-top: 1px solid #ebf0f3;
+}
+.list2
+{
+   margin-top: 15px;
+   width: 220px;
+   position: relative;
+}
+div.list2 span.icon
+{
+    background: url(https://static.e-schools.info/images/icos.png);
+    background-repeat: no-repeat;
+    background-position: -20px -80px;
+    top: 10px;
+}
+div.list2 a
+{
+    display: block;
+    padding: 5.8px 5px 6px 11px;
+}
+div.list2 li:first-child 
+{
+    border-top: 1px solid #e6e6e6;
+}
+div.list2 li
+{
+    border-bottom: 1px solid #e6e6e6;
+}
+div.list2 a:hover
+{
+    background-color: #f8f8f8;
+}
+a.underlink:hover::after
+{
+    content: '';
+    position: absolute;
+    font-weight: 300;
+    color: black;
+    background-color: white;
+    border: 1px solid #dddddd;
+    height: 100px;
+    width: 260px;
+    left: 201px;
+    top: -1px;
+    position: absolute;
+    z-index: 1;
+}
+.news
+{
+    padding: 15px 15px 0px 15px;
+}
+.itemlist
+{
+    border-bottom: 1px dashed #d9d9d9;
+    padding: 15px 0px 15px 0px;
+}
+div.itemlist:last-child
+{
+    border-bottom: none;
+}
+h3
+{
+    font-weight: 100;
+    margin: 5px 0px 0px 0px;
+}
+div.itemlist > a
+{
+    font-weight: bold;
+    font-size: 13px;
+    font-family: Tahoma, Arial, sans-serif;
+}
+div.itemlist > a:visited
+{
+    color: #326693;
+}
+div.itemlist > a:link
+{
+    color: #326693;
+}
+div.itemlist > p
+{
+    font-size: 12px;
+    padding: 6px 0px 6px 0px;
+    font-family: Tahoma, Arial, sans-serif;
+}
+.icon2
+{
+    background: url('https://static.e-schools.info/images/icos.png');
+    background-repeat: no-repeat;
+    background-position: -75px -45px;
+    width: 24px;
+    height: 23px;
+    transform: rotate(180deg);
+}
+.newsproject
+{
+    border: 1.3px solid rgb(254,218,153);
+    background-color: rgb(255,241,198);
+    width: 220px;
+    margin: 16px 0px 16px 0px;
+    display: flex;
+    flex-direction: column;
+}
+.projectitem
+{
+    width: 91%;
+    position: relative;
+    left: 10px;
+}
+div.newsproject h4
+{
+    font-size: 13.8px;
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+}
+div.newsproject > div:first-child > span
+{
+    position: absolute;
+    right: 3px;
+    top: 2px;
+}
+div.projectitem > div
+{
+    border-bottom: 1px solid #f0e3ba; 
+    border-top: 1px solid #ffffff;
+}
+div.newsproject > div:first-child
+{
+    background-color: #ffe5a7;
+    height: 28px;   
+    border-top: none;
+    border-bottom: 1px solid rgb(254,218,153);
+    padding: 4px 0px 5px 9px;
+    position: relative;
+    top: -0.2px;
+}
+div.newsproject > div:first-child:hover
+{
+    background-color: #fff1c6;
+    cursor: pointer;
+}
+div.projectitem > div:first-child
+{
+    border-top: none;
+}
+div.projectitem > div:last-child
+{
+    border-bottom: none;
+}
+.projectlist
+{
+    padding: 9px 0px 9px 0px;
+}
+div.newsproject span
+{
+    font-size: 11.6px;
+    display: block;
+}
+div.newsproject a:link
+{
+    color: #326693;
+}
+div.newsproject a
+{
+    font-size: 11px;
+}
+div.newsproject a:visited
+{
+    color: #326693;
+}
+.vote
+{
+    height: 148px;
+    width: 220px;
+    border: 1px solid #e5e5e5;
+    background-color: #fafafa;
+}
+div.vote > div:first-child > span
+{
+    position: absolute;
+    top: 2px;
+    right: 3px;
+}
+div.vote > div:first-child
+{
+    background-color: #eff1f2;
+    border-bottom: 1px solid #e5e5e5;
+    height: 29px;
+    position: relative;
+}
+div.vote > div:first-child:hover
+{
+    background-color: #fafafa;
+    cursor: pointer;
+}
+div.vote > div:nth-child(2)
+{
+    padding: 4px 0px 5px 9px;
+}
+.choice
+{
+    display: flex;
+    flex-direction: column;
+}
+div.vote label
+{
+    margin: 4px 0px 0px 0px;
+}
+div.vote h4
+{
+    font-size: 13.5px;
+    padding: 5px 0px 5px 9px;
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+}
+.question
+{
+    font-size: 11px;
+}
+div.vote > div:nth-child(2) > span:first-child
+{
+    font-weight: bold;
+}
+.undervote
+{
+    border-top: 1px dotted  #e5e5e5;
+    margin: 4px 10px 0px 10px;
+    display: flex;
+    padding: 10px 0px 5px 1px;
+}
+div.undervote input
+{
+    width: 80px;
+    height: 22px;
+    font-size: 11px;
+    font-weight: bold;
+}
+div.undervote  span:first-child
+{
+    font-size: 13px;
+}
+div.undervote span:nth-child(2)
+{
+    font-size: 11px;
+    color: #777777;
+    margin: 0px 0px 3px 13.5px;
+}
+#numvote
+{
+    font-weight: bolder;
+}
+.time
+{
+    font-size: 11.7px;
+    color: #777777;
+    font-weight:400;
+    padding-right: 6px;
+}
+.name
+{
+    font-size: 11.7px;
+    border-left: 1.2px solid #aaaaaa;
+    border-right: 1.2px solid #aaaaaa;
+    padding: 0px 6.5px 0px 6.5px;
+}
+span.name > a
+{
+    color: #a20360;
+    text-decoration: none;
+}
+.comment
+{
+    
+    font-size: 11.7px;
+    padding-left: 6px;
+}
+span.comment > a
+{
+    color: #326693;
+    text-decoration: none;
+}
+.photo 
+{
+    border-top: 1px solid #d9d9d9;
+    padding-top: 15px;
+}
+div.photo > h3, div.wall > h3
+{
+    margin-left: 15px;
+}
+.underphoto
+{
+    border: 1px solid #e8e8e8;
+    background-color: #fafafa;
+    margin: 8px 0px 0px 0px;
+}
+div.underphoto  img
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+div.underphoto > a 
+{
+    display: block;
+    padding: 11px;
+}
+.button
+{
+    border: 1px solid #e8e8e8;
+    border-top: none ;
+    background-color: #f7f7f7;
+    height: 37px;
+}
+div.button > span
+{
+    float: right;
+    padding: 11px;
+}
+div.button > span > a
+{
+    color: #326693;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 12px;
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+}
+#button
+{
+    border: 1px solid #e5e5e5;
+    background-color: #fafafa;
+    border-radius: 14px;
+    width: 70px;
+    height: 30px;
+    position: relative;
+    left: 370px;
+    top: 3px;
+}
+.wall
+{
+    margin-top: 22px;
+    height: 100px;
+}
+.underwall
+{
+    border: 1px solid #e8e8e8;
+    background-color: #f7f7f7;
+    height: 35px;
+    padding: 10px 0px 10px 14px;
+    font-size: 12.5px;
+    margin-top: 8px;
+}
+div.underwall > span
+{
+    font-weight: bold;
+}
+div.wall > span
+{
+    font-size: 12px;
+    display: block;
+    margin-top: 15px ;
+}
+.footer
+{
+    border-top: 1px solid #eeeeee;
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    bottom: -2.5px;
+    display: flex;
+    justify-content: space-between;
+}
+.leftfoot, .rightfoot
+{   
+    display: flex;
+    flex-direction: column;
+}
+div.footer img
+{
+    width: 11.8px;
+}
+div.footer a, div.footer span
+{
+    font-size: 11px;
+    color: #444444;
+}
+.leftfoot 
+{
+    margin: 15px 0px 0px 20px;
+}
+.centerfoot
+{
+    margin: 12px 0px 0px 0px;
+}
+.rightfoot
+{
+    margin: 15px 20px 0px 0px;
+}
+div.leftfoot > span
+{
+    margin-bottom: 8px;
+}
+div.leftfoot > span:nth-child(2) > a
+{
+    margin: 0px 0px 0px 8px;
+    position: relative;
+    bottom: 1px;
+}
+div.centerfoot  a
+{
+    padding: 0px 13px 0px 13px;
+    margin-bottom: 8px;
+    border-left: 1px solid #cccccc;
+}
+div.centerfoot  a:first-child
+{
+    padding-left: 0px;
+}
+div.centerfoot  a:last-child
+{
+    padding-right: 0px;
+}
+div.centerfoot > span 
+{
+    margin-bottom: 10px;
+}
+div.centerfoot  a:nth-child(1)
+{
+    border: none;
+}
+div.rightfoot > span, div.rightfoot > a
+{
+    text-align: right;
+    margin: 0px 0px 5.3px 0px;
+}
+.rightview
+{
+    width: 163px;
+    height: 150px;
+    position: absolute;
+    top: 143px;
+    margin-left: 5px;
+}
+div.directorofschool 
+{
+    background: rgba(255, 255, 255, 0.801);
+    height: 84px;
+    padding: 0px 5px 0px 5px;
+}
+div.directorofschool > span
+{
+    font-size: 13px;
+    display: block;
+    margin: 2px 0px 4px 2px;
+}
+div.directorofschool > span:first-child
+{
+    font-weight: bolder;
+}
+div.directorofschool > span:nth-child(2) > a
+{
+    color: #a20360;
+    font-size: 12px;
+}
+div.directorofschool > span:last-child
+{
+    font-size: 11px;
+}
+.blockofnews
+{
+    display: flex;
+    flex-direction: column;
+}
+div.blockofnews > div:first-child
+{
+    font-weight: bolder;
+    background-color: #eff1f2;
+    font-size: 14px;
+    height: 30px;
+    width: 150px;
+    margin-top: 23px;
+    padding: 6px 0px 3px 11.4px;
+} 
+div.blockofnews > div:nth-child(2)
+{
+    font-weight: bold;
+    display: block;
+    background:rgba(255, 255, 255, 0.9);
+    width: 150px;
+    padding: 11px 6px 5px 6px;
+    font-size: 12px;
+    line-height: 1.4;
+    text-align: center;
+    border: 1px solid rgba(226, 226, 226, 0.6);
+}
+
+@media (max-width: 1255px) 
+    {   
+        #intro
+        {
+            display: block;
+            width: 1300px;
+        }
+        .header
+        {
+            display: block;
+            width: 1300px;
+        }
+        #photo1
+        {
+            width: 1300px;
+        }
+
+    }
+
