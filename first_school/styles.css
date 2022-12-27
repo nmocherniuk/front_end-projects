@@ -9,13 +9,13 @@ body
 {
     background: #1c388b;
 }
-#intro
+#panel
 {
     height: 45px;
     background-color: #3b5998;
     font-size: 13px;
 }
-#intro-minor
+#panel_minor
 {
     margin: auto;
     padding: 8px 0px 5px 0px;
@@ -24,7 +24,7 @@ body
     display: flex;
     justify-content: space-between;
 }
-div.leftintro > a
+div.left_panel > a
 {
     margin: 0px 4px 0px 8px;
     font-family: Tahoma, sans-serif,Arial;
@@ -47,24 +47,24 @@ div.lang option
 {
     padding: 5px 0px 5px 5px;
 }
-div.leftintro > a:link, div.rightintro > a:link
+div.left_panel > a:link, div.rightpanel > a:link
 {
     color: white;
 }
-div.leftintro > a:visited, div.rightintro > a:visited
+div.left_panel > a:visited, div.rightpanel > a:visited
 {
     color: white;
 }
-div.leftintro > a:hover, div.rightintro > a:hover
+div.left_panel > a:hover, div.rightpanel > a:hover
 {
     border-bottom: 1px solid #c5cee0;
 }
-div.leftintro > a:nth-child(3)
+div.left_panel > a:nth-child(3)
 {
     font-weight: bold;
     color: red;
 }
-div.rightintro > a
+div.right_panel > a
 {
     font-family: Tahoma, sans-serif,Arial;
     font-size: 12px;
@@ -72,7 +72,7 @@ div.rightintro > a
     text-decoration: none;
     color: white;
 }
-div.rightintro > a:last-child
+div.right_panel > a:last-child
 {
     font-weight: bolder;
 }
@@ -85,7 +85,7 @@ div.rightintro > a:last-child
     box-shadow:  0 3px 3px rgb(0 0 0 / 30%);
     z-index: 1;
 }
-#underheader
+#under_header
 {
     width: 1210px;
     margin: auto;
@@ -112,14 +112,14 @@ div.header a
     left: 10px;
     text-shadow: 0 2px 0 rgb(0 0 0 / 30%);
 }
-#photo1
+#main_photo
 {
     background-image: url('https://content.e-schools.info/cache/f5/10/f510b050ad75271f71e0053e38f67218.jpg');
     background-repeat: no-repeat;
     height: 290px;
     background-position: center;
 }
-.mainphoto
+.static_width
 {
     width: 1240px;
     height: 25px;
@@ -155,7 +155,7 @@ div.search input:nth-child(2)
     top: 3px;
     border: none;
 }
-.centerview
+.center_view
 {   
     position: relative;
     top: 250px;
@@ -164,7 +164,7 @@ div.search input:nth-child(2)
     background-color: white;
     margin: auto;    
 }
-#photo3
+#left_photo
 {
     background-image:  url('https://static.e-schools.info/images/backgrounds/bg-3.png');
     background-repeat: repeat-y;
@@ -173,7 +173,7 @@ div.search input:nth-child(2)
     transform: scaleX(-1);
     position: absolute;
 }
-#rightview
+#right_photo
 {
     background-image:  url('https://static.e-schools.info/images/backgrounds/bg-3.png');
     background-repeat: repeat-y;
@@ -183,7 +183,7 @@ div.search input:nth-child(2)
     position: absolute;
     right: 0px;
 }
-#minorback
+#minor_back
 {
     background-color: white;
     width: 65%;
@@ -258,7 +258,7 @@ h2
     color: rgb(164, 11, 11);
     font-style: italic;
 }
-#undertext
+#under_text
 {
     text-align: right;
     font-weight: bold;
@@ -268,7 +268,7 @@ h2
     line-height: 1.6;
     padding: 0px 25px 0px 15px;
 }
-.leftview
+.left_view
 {
     position: absolute;
     top: 16px;
@@ -380,12 +380,12 @@ a.underlink:hover::after
 {
     padding: 15px 15px 0px 15px;
 }
-.itemlist
+.item_list
 {
     border-bottom: 1px dashed #d9d9d9;
     padding: 15px 0px 15px 0px;
 }
-div.itemlist:last-child
+div.item_list:last-child
 {
     border-bottom: none;
 }
@@ -394,21 +394,21 @@ h3
     font-weight: 100;
     margin: 5px 0px 0px 0px;
 }
-div.itemlist > a
+div.item_list > a
 {
     font-weight: bold;
     font-size: 13px;
     font-family: Tahoma, Arial, sans-serif;
 }
-div.itemlist > a:visited
+div.item_list > a:visited
 {
     color: #326693;
 }
-div.itemlist > a:link
+div.item_list > a:link
 {
     color: #326693;
 }
-div.itemlist > p
+div.item_list > p
 {
     font-size: 12px;
     padding: 6px 0px 6px 0px;
@@ -423,7 +423,7 @@ div.itemlist > p
     height: 23px;
     transform: rotate(180deg);
 }
-.newsproject
+.news_project
 {
     border: 1.3px solid rgb(254,218,153);
     background-color: rgb(255,241,198);
@@ -432,29 +432,29 @@ div.itemlist > p
     display: flex;
     flex-direction: column;
 }
-.projectitem
+.project_item
 {
     width: 91%;
     position: relative;
     left: 10px;
 }
-div.newsproject h4
+div.news_project h4
 {
     font-size: 13.8px;
     font-family: Tahoma, Arial, Helvetica, sans-serif;
 }
-div.newsproject > div:first-child > span
+div.news_project > div:first-child > span
 {
     position: absolute;
     right: 3px;
     top: 2px;
 }
-div.projectitem > div
+div.project_item > div
 {
     border-bottom: 1px solid #f0e3ba; 
     border-top: 1px solid #ffffff;
 }
-div.newsproject > div:first-child
+div.news_project > div:first-child
 {
     background-color: #ffe5a7;
     height: 28px;   
@@ -464,37 +464,37 @@ div.newsproject > div:first-child
     position: relative;
     top: -0.2px;
 }
-div.newsproject > div:first-child:hover
+div.news_project > div:first-child:hover
 {
     background-color: #fff1c6;
     cursor: pointer;
 }
-div.projectitem > div:first-child
+div.project_item > div:first-child
 {
     border-top: none;
 }
-div.projectitem > div:last-child
+div.project_item > div:last-child
 {
     border-bottom: none;
 }
-.projectlist
+.project_list
 {
     padding: 9px 0px 9px 0px;
 }
-div.newsproject span
+div.news_project span
 {
     font-size: 11.6px;
     display: block;
 }
-div.newsproject a:link
+div.news_project a:link
 {
     color: #326693;
 }
-div.newsproject a
+div.news_project a
 {
     font-size: 11px;
 }
-div.newsproject a:visited
+div.news_project a:visited
 {
     color: #326693;
 }
@@ -550,25 +550,25 @@ div.vote > div:nth-child(2) > span:first-child
 {
     font-weight: bold;
 }
-.undervote
+.under_vote
 {
     border-top: 1px dotted  #e5e5e5;
     margin: 4px 10px 0px 10px;
     display: flex;
     padding: 10px 0px 5px 1px;
 }
-div.undervote input
+div.under_vote input
 {
     width: 80px;
     height: 22px;
     font-size: 11px;
     font-weight: bold;
 }
-div.undervote  span:first-child
+div.under_vote  span:first-child
 {
     font-size: 13px;
 }
-div.undervote span:nth-child(2)
+div.under_vote span:nth-child(2)
 {
     font-size: 11px;
     color: #777777;
@@ -617,19 +617,19 @@ div.photo > h3, div.wall > h3
 {
     margin-left: 15px;
 }
-.underphoto
+.under_photo
 {
     border: 1px solid #e8e8e8;
     background-color: #fafafa;
     margin: 8px 0px 0px 0px;
 }
-div.underphoto  img
+div.under_photo  img
 {
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
-div.underphoto > a 
+div.under_photo > a 
 {
     display: block;
     padding: 11px;
@@ -670,7 +670,7 @@ div.button > span > a
     margin-top: 22px;
     height: 100px;
 }
-.underwall
+.under_wall
 {
     border: 1px solid #e8e8e8;
     background-color: #f7f7f7;
@@ -679,7 +679,7 @@ div.button > span > a
     font-size: 12.5px;
     margin-top: 8px;
 }
-div.underwall > span
+div.under_wall > span
 {
     font-weight: bold;
 }
@@ -699,7 +699,7 @@ div.wall > span
     display: flex;
     justify-content: space-between;
 }
-.leftfoot, .rightfoot
+.left_foot, .right_foot
 {   
     display: flex;
     flex-direction: column;
@@ -713,56 +713,56 @@ div.footer a, div.footer span
     font-size: 11px;
     color: #444444;
 }
-.leftfoot 
+.left_foot 
 {
     margin: 15px 0px 0px 20px;
 }
-.centerfoot
+.center_foot
 {
     margin: 12px 0px 0px 0px;
 }
-.rightfoot
+.right_foot
 {
     margin: 15px 20px 0px 0px;
 }
-div.leftfoot > span
+div.left_foot > span
 {
     margin-bottom: 8px;
 }
-div.leftfoot > span:nth-child(2) > a
+div.left_foot > span:nth-child(2) > a
 {
     margin: 0px 0px 0px 8px;
     position: relative;
     bottom: 1px;
 }
-div.centerfoot  a
+div.center_foot  a
 {
     padding: 0px 13px 0px 13px;
     margin-bottom: 8px;
     border-left: 1px solid #cccccc;
 }
-div.centerfoot  a:first-child
+div.center_foot  a:first-child
 {
     padding-left: 0px;
 }
-div.centerfoot  a:last-child
+div.center_foot  a:last-child
 {
     padding-right: 0px;
 }
-div.centerfoot > span 
+div.center_foot > span 
 {
     margin-bottom: 10px;
 }
-div.centerfoot  a:nth-child(1)
+div.center_foot  a:nth-child(1)
 {
     border: none;
 }
-div.rightfoot > span, div.rightfoot > a
+div.right_foot > span, div.right_foot > a
 {
     text-align: right;
     margin: 0px 0px 5.3px 0px;
 }
-.rightview
+.right_view
 {
     width: 163px;
     height: 150px;
@@ -795,12 +795,12 @@ div.directorofschool > span:last-child
 {
     font-size: 11px;
 }
-.blockofnews
+.block_of_news
 {
     display: flex;
     flex-direction: column;
 }
-div.blockofnews > div:first-child
+div.block_of_news > div:first-child
 {
     font-weight: bolder;
     background-color: #eff1f2;
@@ -810,7 +810,7 @@ div.blockofnews > div:first-child
     margin-top: 23px;
     padding: 6px 0px 3px 11.4px;
 } 
-div.blockofnews > div:nth-child(2)
+div.block_of_news > div:nth-child(2)
 {
     font-weight: bold;
     display: block;
@@ -825,7 +825,7 @@ div.blockofnews > div:nth-child(2)
 
 @media (max-width: 1255px) 
     {   
-        #intro
+        #panel
         {
             display: block;
             width: 1300px;
@@ -835,7 +835,7 @@ div.blockofnews > div:nth-child(2)
             display: block;
             width: 1300px;
         }
-        #photo1
+        #mainphoto
         {
             width: 1300px;
         }
